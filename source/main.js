@@ -30,9 +30,9 @@ configDefault = {
   webSocket         : "wss://irc-ws.chat.twitch.tv:443",
                                         /* 접속할 웹소켓
                                            const value                                */
-  nick              : "justinfan00000", // 트위치 IRC에서 이용할 gust nickname
+  nick              : "justinfan00000", // 트위치 IRC에서 이용할 guest nickname
   pass              : "foobar",         // 트위치 IRC에서 이용할 guest password
-  channel           : "#mr_watert",     /* 접속할 채널
+  channel           : "#qlanny70",     /* 접속할 채널
                                            "#id1,#id2,.."으로 여러 채널에 접속 가능   */
   retryInterval     : 3,                // 접속에 끊겼을 때 재접속 시도 간격(초)
   allMessageHandle  : false,            /* IRC로부터 받은 처리되지 않은 메세지를 html에 표시
@@ -393,7 +393,7 @@ var checkComplete = function() {
 
       '<div style="padding:0.45em; border:0.1em solid white; ' +
                   "display:inline-block !important; white-space:pre !important;" +
-                  "font-size:" + width + "; line-height:1em; color:white !important;" +
+                  "font-size:" + width + "; line-height:5em; color:white !important;" +
                   "font-family:'굴림체' !important; font-weight:normal; " +
                   'text-shadow:.05em .05em dodgerblue;">' +
         "   Ｂ ｒ ｉ ｄ ｇ ｅ    \n ■■□□     □□■■  \n" +
