@@ -94,7 +94,7 @@ html {
 html {
 	overflow: hidden;
 	color: white;
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 
 body {
@@ -121,7 +121,7 @@ img.twitch_emote {
 }
 
 img.dccon {
-	max-height: 40px;
+	max-height: 60px;
 }
 
 /* 이모티콘만 포함된 경우 */
